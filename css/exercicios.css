@@ -1,0 +1,47 @@
+.secao {
+	float: left;
+	width: 33.333%;
+}
+
+.mini {
+	float: left;
+	width: 50%;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.logo,
+.secao {
+	padding: 0 1%;
+}
+
+@media (min-width: 600px) {
+    html {
+        font-size: 1.125em;
+    }
+}
+@media (min-width: 1000px) {
+    html {
+        font-size: 1.25em;
+    }
+}
+
+/* Dividindo as colunas de noticias em 3 */
+
+.secao {
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .secao {
+        width: 50%;
+    }
+}
+@media (min-width: 1000px) {
+    .secao {
+        width: 33.333%;
+    }
+}
